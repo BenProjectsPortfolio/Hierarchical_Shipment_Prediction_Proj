@@ -5,7 +5,7 @@
 * *__all__* - trains 3 models for the given type
 * *__both__* - trains both binary and regression models *(this does not include regression2)*
 * *__regression2__* - trains a regression model with the additional *__disruption_occurred__* feature
-* *__after training is successfully completed, models are saved within the ./models directory__*
+* *__after training is successfully completed, models are saved within the ./models directory__ (add directory if missing)*
 ### Testing
 #### Binary Models
 *python -m shipment_prediction --binary_model_path ./models/__NameOfBinaryModel.joblib__*
